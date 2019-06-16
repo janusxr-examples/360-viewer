@@ -2,6 +2,8 @@
 
 Display 360 content such as images and video in a variety of ways
 
+Demo: <https://360-viewer.hashbase.io/>
+
 1. Spherescreen (fullpage)
 
 ![1](https://i.imgur.com/WSRT9wc.jpg)
