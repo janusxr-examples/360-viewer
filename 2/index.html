@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <title>360 Content Template</title>
@@ -61,6 +60,20 @@ To visit this room, press <b>TAB</b> from within JanusVR, and paste the url of t
 </FireBoxRoom>
 
 -->
-
+<style>
+.janusweb_sharing {
+    visibility:hidden;
+    display:none;
+}
+</style>
+<script src="https://web.janusvr.com/janusweb.js"></script>
+<script>
+elation.janusweb.init({
+        url: document.location.href,
+        showchat: false,
+        shownavigation: false,
+        usevoip: false,
+        picking: false,});
+</script>
 </body>
 </html>
